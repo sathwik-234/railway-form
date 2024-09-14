@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>LP Information Form</h2>
+        <form id="lpForm">
+            <label for="cmsId">CMS-Id:</label>
+            <input type="text" id="cmsId" name="cmsId" required>
+
+            <label for="lpName">Name of the LP:</label>
+            <input type="text" id="lpName" name="lpName" required>
+
+            <label for="hq">HQ:</label>
+            <input type="text" id="hq" name="hq" required>
+
+            <label for="signOnTime">SignOn Time:</label>
+            <input type="time" id="signOnTime" name="signOnTime" required>
+
+            <label for="trainNumber">Train Number:</label>
+            <input type="text" id="trainNumber" name="trainNumber" required>
+
+            <label for="locoNumber">Loco Number:</label>
+            <input type="text" id="locoNumber" name="locoNumber" required>
+
+            <label for="currentStation">Current Station:</label>
+            <input type="text" id="currentStation" name="currentStation" required>
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
+        <div id="formOutput"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
